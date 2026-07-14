@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: { absolute: "Weiye Huai(Franklin)" },
+  description:
+    "Weiye Huai (Franklin) is a business student focused on digital marketing, consumer behavior, international business, and cross-cultural communication.",
+};
 
 export default function HomePage() {
   return (
@@ -22,20 +29,23 @@ export default function HomePage() {
         Hello, I am <strong>Weiye Huai (怀伟烨)</strong>, and I go by
         <strong> Franklin</strong> in English. I am a senior at the University of
         International Business and Economics (UIBE) in Beijing, majoring in
-        Business English and minoring in Finance with a focus on international markets.
+        Business English and minoring in Finance with a focus on international
+        markets.
       </p>
       <p>
-        My academic and professional interests sit at the intersection of
-        international business, digital marketing, consumer behavior, and
-        cross-cultural communication. I am particularly interested in how
-        brands and digital platforms adapt their messages, communities, and
-        growth strategies for audiences across cultural contexts.
+        I am a business student with practical experience in digital platform
+        operations, audit, and cross-cultural research. My academic training
+        combines business communication, finance, market analysis, and
+        quantitative methods, enabling me to approach commercial questions
+        with both analytical rigor and an international perspective.
       </p>
       <p>
-        I completed a music platform operations internship at Kuaishou, supported
-        a major banking audit at KPMG, and participated in research on
-        cross-cultural social media marketing, online game communication, and
-        multimodal interaction.
+        Through internships at Kuaishou and KPMG and research projects in social
+        media marketing and consumer communication, I have developed skills in
+        user and market research, data analysis, project coordination, and
+        strategy development. I am particularly interested in opportunities
+        that connect consumer insight with digital growth, brand strategy, and
+        international business.
       </p>
 
       <h2>Experience</h2>

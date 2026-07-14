@@ -16,7 +16,7 @@ export function Header() {
           <span className="wordmark-primary">Weiye Huai</span>
           <span className="wordmark-secondary">怀伟烨 · Franklin</span>
         </Link>
-        <p>Business · Market · Management</p>
+        <p>Business Student | Digital Marketing | Consumer Behavior</p>
       </div>
       <div className="nav-bar">
         <nav className="desktop-nav page-shell" aria-label="Main navigation">

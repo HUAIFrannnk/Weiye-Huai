@@ -4,14 +4,14 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://franklinhuai.com"),
-  title: { default: "Weiye Huai (Franklin) — Business & Management", template: "%s — Weiye Huai" },
+  metadataBase: new URL("https://weiyehuai.com"),
+  title: { default: "Weiye Huai(Franklin)", template: "%s — Weiye Huai" },
   description: "The academic and professional portfolio of Weiye Huai (怀伟烨), who goes by Franklin in English, a senior at the University of International Business and Economics studying Business English and Finance.",
   keywords: ["Weiye Huai", "Franklin", "怀伟烨", "business", "market", "management", "international business"],
   authors: [{ name: "Weiye Huai" }],
   openGraph: {
-    title: "Weiye Huai (Franklin) — Business & Management",
-    description: "Business, market, and management experience across international contexts.",
+    title: "Weiye Huai(Franklin)",
+    description: "Business student focused on digital marketing, consumer behavior, and international markets.",
     type: "website",
     locale: "en_US",
   },
