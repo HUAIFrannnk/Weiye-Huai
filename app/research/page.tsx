@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Research",
   description: "Weiye Huai's research experience in cross-cultural marketing, digital communication, consumer response, and multimodal interaction.",
+  alternates: { canonical: "/research", languages: { en: "/research", "zh-CN": "/zh/research" } },
 };
 
 export default function ResearchPage() {

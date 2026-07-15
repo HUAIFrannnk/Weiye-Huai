@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: { absolute: "Weiye Huai(Franklin)" },
   description:
     "Weiye Huai (Franklin) is a business student focused on digital marketing, consumer behavior, international business, and cross-cultural communication.",
+  alternates: { canonical: "/", languages: { en: "/", "zh-CN": "/zh" } },
 };
 
 export default function HomePage() {

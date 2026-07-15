@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageIntro } from "@/components/page-intro";
 
-export const metadata: Metadata = { title: "Projects", description: "Selected brand strategy, user growth, and digital marketing projects by Weiye Huai (Franklin)." };
+export const metadata: Metadata = { title: "Projects", description: "Selected brand strategy, user growth, and digital marketing projects by Weiye Huai (Franklin).", alternates: { canonical: "/projects", languages: { en: "/projects", "zh-CN": "/zh/projects" } } };
 const projects = [
   { number: "01", category: "Research lead · Oct 2025 — Jun 2026", title: "POP MART Cross-cultural Social Media Marketing", description: "A research project examining how POP MART localizes its Instagram and TikTok operations for overseas audiences through culture, creators, and brand storytelling.", skills: ["Cross-cultural research", "Social media strategy", "Campaign analysis"], outcome: "Developed a social marketing evaluation model using KOL, brand-campaign, and audience-feedback data, producing recommendations on localized creator outreach and differentiated content." },
   { number: "02", category: "Core team · Mar 2026 — Jun 2026", title: "National E-commerce Innovation Challenge", description: "A competition project combining North American cultural trend monitoring, localized social content, product research, and commercial planning.", skills: ["Content operations", "Market research", "Pricing analysis"], outcome: "Contributed to a university silver award by supporting localized copy, audience research, commercial forecasting, tiered pricing, and marketing budget allocation." },

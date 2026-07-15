@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageIntro } from "@/components/page-intro";
 import { Timeline, type TimelineItem } from "@/components/timeline";
 
-export const metadata: Metadata = { title: "Curriculum Vitae", description: "Education, professional experience, projects, and skills of Weiye Huai (Franklin)." };
+export const metadata: Metadata = { title: "Curriculum Vitae", description: "Education, professional experience, projects, and skills of Weiye Huai (Franklin).", alternates: { canonical: "/cv", languages: { en: "/cv", "zh-CN": "/zh/cv" } } };
 
 const education: TimelineItem[] = [{ period: "Sep 2023 — Jun 2027", title: "B.A. in Business English · Minor in Finance (International Markets)", organization: "University of International Business and Economics · Beijing, China", description: "Senior undergraduate. Relevant coursework includes Microeconomics, Macroeconomics, Econometrics, International Trade, Finance, and Business Data Analytics." }];
 const experience: TimelineItem[] = [

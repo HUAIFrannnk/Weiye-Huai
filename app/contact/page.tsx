@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageIntro } from "@/components/page-intro";
 
-export const metadata: Metadata = { title: "Contact", description: "Contact Weiye Huai (Franklin) for research, project, and professional opportunities." };
+export const metadata: Metadata = { title: "Contact", description: "Contact Weiye Huai (Franklin) for research, project, and professional opportunities.", alternates: { canonical: "/contact", languages: { en: "/contact", "zh-CN": "/zh/contact" } } };
 const links = [
   { label: "Email", value: "2994464640@qq.com", href: "mailto:2994464640@qq.com" },
 ];

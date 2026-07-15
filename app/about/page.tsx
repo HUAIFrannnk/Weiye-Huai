@@ -3,7 +3,7 @@ import Image from "next/image";
 import { PageIntro } from "@/components/page-intro";
 import { SectionHeading } from "@/components/section-heading";
 
-export const metadata: Metadata = { title: "About", description: "Weiye Huai's education, professional experience, skills, and personal interests." };
+export const metadata: Metadata = { title: "About", description: "Weiye Huai's education, professional experience, skills, and personal interests.", alternates: { canonical: "/about", languages: { en: "/about", "zh-CN": "/zh/about" } } };
 
 const courses = ["Microeconomics", "Macroeconomics", "Econometrics", "International Trade", "Finance", "Business Data Analytics"];
 const skills = ["Digital platform operations", "Market and user research", "Data analysis", "Content strategy", "Cross-cultural marketing", "Python · SQL · Stata"];
