@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageIntro } from "@/components/page-intro";
 import { Timeline, type TimelineItem } from "@/components/timeline";
 
@@ -25,7 +24,9 @@ export default function ChineseCvPage() {
   return <>
     <PageIntro eyebrow="专业履历" title="个人简历">
       <p>简要呈现我的教育背景、实习经历、代表项目与持续发展的专业能力。</p>
-      <Link className="button button-secondary" href="/zh/contact">索取PDF版本 <span aria-hidden="true">↗</span></Link>
+      <a className="button button-secondary" href="/Weiye-Huai-CV.pdf" download>
+        下载简历（PDF） <span aria-hidden="true">↓</span>
+      </a>
     </PageIntro>
     <div className="page-shell cv-layout">
       <aside className="cv-aside"><p className="label">基本信息</p><dl><dt>所在地</dt><dd>中国北京</dd><dt>方向</dt><dd>数字营销与策略</dd><dt>语言</dt><dd>中文 · 英文</dd><dt>雅思</dt><dd>7.0</dd></dl></aside>

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageIntro } from "@/components/page-intro";
 import { Timeline, type TimelineItem } from "@/components/timeline";
 
@@ -21,7 +20,9 @@ export default function CvPage() {
   return <>
     <PageIntro eyebrow="Professional record" title="Curriculum Vitae">
       <p>A concise record of my academic background, experience, selected projects, and developing capabilities.</p>
-      <Link className="button button-secondary" href="/contact">Request PDF copy <span aria-hidden="true">↗</span></Link>
+      <a className="button button-secondary" href="/Weiye-Huai-CV.pdf" download>
+        Download CV (PDF) <span aria-hidden="true">↓</span>
+      </a>
     </PageIntro>
     <div className="page-shell cv-layout">
       <aside className="cv-aside"><p className="label">Details</p><dl><dt>Location</dt><dd>Beijing, China</dd><dt>Focus</dt><dd>Digital marketing &amp; strategy</dd><dt>Languages</dt><dd>Chinese · English</dd><dt>IELTS</dt><dd>7.0</dd></dl></aside>
